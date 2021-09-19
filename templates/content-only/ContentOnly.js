@@ -1,20 +1,26 @@
 import React from 'react';
 
-import { Divider } from "atherdon-react-markdown-component-body"
+
+
+import { Divider } from "react-email-components-typography";
+import { HOC, Body } from "react-email-components-template";
 
 // import HOC from './HOC';
 
-import { HOC } from "atherdon-react-markdown-component-wrapper";
+// import { HOC } from "atherdon-react-markdown-component-wrapper";
 
 
 import Footer from './Footer';
 
 
 
-import BodyPrototype from './Body/BodyPrototype';
+// import BodyPrototype from './Body/BodyPrototype';
+
+
 
 import config from './config';
 import { styles } from './styles';
+
 
 const ContentOnly = ({ header }) => (
   <HOC styles={{ ...styles }}>
@@ -29,7 +35,7 @@ const ContentOnly = ({ header }) => (
           <Divider>
               {/*
 
-            <BodyPrototype
+            <Body
               config={config}
             />
              */}
