@@ -1184,13 +1184,6 @@ atherdon-react-markdown-component-html@0.0.5:
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-atherdon-react-markdown-component-typography@0.0.2:
-  version "0.0.2"
-  resolved "https://registry.yarnpkg.com/atherdon-react-markdown-component-typography/-/atherdon-react-markdown-component-typography-0.0.2.tgz#49c73a2e54474ffea7298fe8b8816966853b1826"
-  integrity sha512-1LVX8QmNxp2e+AB9uVudY7dJYqBCl6KIIDhBjbdNAz0CkuyJUZtheC3FZZb/XaYJrPzAVrYbdpqbi3CNiYSn2Q==
-  dependencies:
-    "@babel/runtime" "^7.14.6"
-
 atherdon-react-markdown-component-typography@^0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/atherdon-react-markdown-component-typography/-/atherdon-react-markdown-component-typography-0.0.3.tgz#adce50ea4c9929657899ad174f2fd4cea0e934a5"
@@ -4809,14 +4802,15 @@ react-email-components-table@^0.1.2:
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-react-email-components-template@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.yarnpkg.com/react-email-components-template/-/react-email-components-template-0.0.4.tgz#f4983f7e1d730ae800c2b36112087fa8130fb3eb"
-  integrity sha512-zM/wlERV6ameDI4CZ6ZgI740YF9zgD9JmkruaIOCP2FaaXKwdIwaUmQeGFKHEc3o7W3GBoXGRBtGp/PxXF7hyA==
+react-email-components-template@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.yarnpkg.com/react-email-components-template/-/react-email-components-template-0.0.5.tgz#1384ef642576a25c037d76a832c1e0c8d1c0c858"
+  integrity sha512-mAfM5AKHz/llCA5wd8Cz7rlKYriLbqaJsR3gTdJnw56Ykwk0XvjZ0PreKwrOyMALtXkrec9kk6BdubrHSNniyA==
   dependencies:
     "@babel/runtime" "^7.14.6"
     atherdon-react-markdown-component-body "^0.1.0"
     atherdon-react-markdown-component-typography "^0.0.3"
+    react-email-components-table "^0.1.2"
     react-email-components-typography "^0.0.4"
     react-emails-components-miscellaneous "^0.2.0"
 
