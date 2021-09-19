@@ -1,16 +1,20 @@
 import React from 'react';
 
-import { 
-  MainTitle, Image, Heading, Strong, Paragraph, Separator, Divider 
-} from "atherdon-react-markdown-component-typography"
+// import { 
+//   MainTitle, Image, Heading, Strong, Paragraph, Separator, Divider 
+// } from "atherdon-react-markdown-component-typography"
+
 
 
 const BodyPrototype = ({ config }) => {
   const {
     mainTitle, paragraphFirst,
     memImageLink, paragraphSecond,
-    heading, paragraphThird,
+    heading, 
+    
+    paragraphThird,
     memImageLink2, paragraphFourth,
+    
     heading2, heading3, imageLink, paragraphFive,
   } = config;
 
