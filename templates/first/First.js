@@ -1,11 +1,10 @@
 import React from 'react';
 
-import { Divider } from "atherdon-react-markdown-component-body"
-import { Logo } from "atherdon-react-markdown-component-content"
+import { Divider } from "react-email-components-typography";
+import { Logo } from "react-emails-components-miscellaneous";
 
-// import HOC from './HOC';
 
-import { HOC } from "atherdon-react-markdown-component-wrapper";
+import { Container } from "react-email-components-template";
 
 
 import Footer from './Footer';
@@ -17,7 +16,9 @@ import config from './config';
 import { styles } from './styles';
 
 const First = ({ header }) => (
-  <HOC styles={{ ...styles }}>
+  <Container styles={{ ...styles }}>
+
+
     <tbody>
       
       <tr>
@@ -42,8 +43,10 @@ const First = ({ header }) => (
         </td>
       </tr>
     </tbody>
+
+    
     {/*<Footer /> */}
-  </HOC>
+  </Container>
 );
 
 export default First;

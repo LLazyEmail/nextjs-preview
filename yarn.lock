@@ -4804,7 +4804,7 @@ react-dom@17.0.2, react-dom@^17.0.2:
     object-assign "^4.1.1"
     scheduler "^0.20.2"
 
-react-email-components-table@0.1.2, react-email-components-table@^0.1.2:
+react-email-components-table@^0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/react-email-components-table/-/react-email-components-table-0.1.2.tgz#f8f5077fac445eee9dd0d9360e4341fea7d8a54e"
   integrity sha512-sLga8l5+lGVlWRcuyhW9f7gYBdIBh0R3tP7d6wTYd3pAe1Lna/83bE9suBpIPbRXo7mcOjJLCYQhxx+ZXamqxA==

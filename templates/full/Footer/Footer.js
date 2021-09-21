@@ -1,16 +1,14 @@
 import React from 'react';
 
 import { 
-  Copyright, Address, Unsubscribe, NewsletterSponsorshipLink 
-} from "atherdon-react-markdown-component-misc"
+  Copyright, Address, 
+  Unsubscribe, NewsletterSponsorshipLink 
+} from "react-emails-components-miscellaneous"
 
 import { 
+  Table, 
   TableLeft 
-}  from "atherdon-react-markdown-component-content";
-
-import { 
-  Table
-} from "atherdon-react-markdown-component-body"
+} from "react-email-components-table";
 
 import { styles } from './styles';
 
@@ -24,7 +22,8 @@ const Footer = () => (
     >
       <tbody className="mcnFollowBlockOuter">
         <tr>
-          <td align="center" valign="top" style={styles.followBlockInner} className="mcnFollowBlockInner">
+          <td align="center" valign="top" style={styles.followBlockInner} 
+            className="mcnFollowBlockInner">
 
             <Table
               className="mcnFollowContentContainer"
@@ -47,36 +46,43 @@ const Footer = () => (
                               <tbody>
                                 <tr>
                                   <td align="center" valign="top" style={styles.tdCenterTop2}>
+
                                     <TableLeft
                                       href={config.twitter}
                                       src={config.twitterLogo}
                                       alt="Twitter"
                                     />
+
                                     <TableLeft
                                       href={config.facebook}
                                       src={config.facebookLogo}
                                       alt="Facebook"
                                     />
+
                                     <TableLeft
                                       href={config.instagram}
                                       src={config.instagramLogo}
                                       alt="Instagram"
                                     />
+
                                     <TableLeft
                                       href={config.hn}
                                       src={config.hnLogo}
                                       alt="Website"
                                     />
+
                                     <TableLeft
                                       href={config.youtube}
                                       src={config.youtubeLogo}
                                       alt="YouTube"
                                     />
+
                                     <TableLeft
                                       href={config.email}
                                       src={config.emailLogo}
                                       alt="Email"
                                     />
+                                    
                                   </td>
                                 </tr>
                               </tbody>

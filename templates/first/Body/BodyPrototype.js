@@ -1,13 +1,21 @@
 import React from 'react';
 
+
 import { 
   MainTitle, Image, Heading, Strong, Paragraph, Separator  
-} from "atherdon-react-markdown-component-typography"
+} from "react-email-components-typography"
 
 import { 
-  Sponsor, Divider, CtaList, GetPublished, JoinUs
- }  from "atherdon-react-markdown-component-body"
+  Sponsor, 
 
+
+ }  from "react-email-components-template"
+
+//  import {
+//   Divider, 
+  
+//   CtaList, GetPublished, JoinUs
+//  } from ""
 
 import { links } from './config';
 
