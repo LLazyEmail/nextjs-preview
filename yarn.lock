@@ -4818,10 +4818,10 @@ react-email-components-table@0.1.2, react-email-components-table@^0.1.2:
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-react-email-components-template@0.1.0:
-  version "0.1.0"
-  resolved "https://registry.yarnpkg.com/react-email-components-template/-/react-email-components-template-0.1.0.tgz#377adc313ad21898dfb3e776f9d70563789692b1"
-  integrity sha512-u1a1LevpWO55LlFTwrgBNI2ZkCuvjn1yyAiAvWIg/PKLQs5u3CuVMLt9nyWJFDOAC84Fo0G1OAR/cfjmfgEUkQ==
+react-email-components-template@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-email-components-template/-/react-email-components-template-0.2.0.tgz#0e5e0873a1cb53e23cc7beda79d3446b108cb921"
+  integrity sha512-HCgX2vEAAwLZxCGs9re/tiKA4NE+oiYv2VvkZFk+zwgcfBEfgnUQJRXknpBL8/bavXnGU2k/Jnv4eCkS5p6tWw==
   dependencies:
     "@babel/runtime" "^7.14.6"
     atherdon-react-markdown-component-body "^0.1.0"
