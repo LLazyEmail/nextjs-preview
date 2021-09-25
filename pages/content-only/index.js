@@ -1,6 +1,6 @@
 import React from 'react';
-import ContentOnly from 'templates/content-only';
+import ContentOnly2 from 'templates/ContentOnly2';
 
-const Content = () => <ContentOnly />;
+const Content = () => <ContentOnly2 />;
 
 export default Content;
