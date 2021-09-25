@@ -4750,7 +4750,7 @@ queue@6.0.2:
   dependencies:
     inherits "~2.0.3"
 
-r-em-comp-interior@^0.1.1:
+r-em-comp-interior@0.1.1:
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/r-em-comp-interior/-/r-em-comp-interior-0.1.1.tgz#1a349c17d45b1e7d9a5753e2a4ab510283d87852"
   integrity sha512-KqOoZvrAj30EGr3RSedl0ZM3IJOm0jUxyStWBezh6wFWMFhfFbllA7WDKgqFh7/IUHiHuRI8jksopyhSuvOoCA==
@@ -4818,7 +4818,7 @@ react-email-components-table@0.1.2, react-email-components-table@^0.1.2:
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-react-email-components-template@^0.2.0:
+react-email-components-template@0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/react-email-components-template/-/react-email-components-template-0.2.0.tgz#0e5e0873a1cb53e23cc7beda79d3446b108cb921"
   integrity sha512-HCgX2vEAAwLZxCGs9re/tiKA4NE+oiYv2VvkZFk+zwgcfBEfgnUQJRXknpBL8/bavXnGU2k/Jnv4eCkS5p6tWw==
