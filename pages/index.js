@@ -9,6 +9,10 @@ export default function Home() {
     >
       <h1>Simple template navigation</h1>
       <ul style={{ display: 'flex', flexDirection: 'column' }}>
+
+        <Link href="/billing-google">
+          <a> BillingGoogle </a>
+          </Link> 
         <Link href="/first">
           <a>first</a>
         </Link>
