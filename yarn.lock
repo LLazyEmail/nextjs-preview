@@ -2089,6 +2089,17 @@ elliptic@^6.5.3:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
+email-template-google-billing@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/email-template-google-billing/-/email-template-google-billing-0.0.1.tgz#55acca276a02f7de606c6e18fe6b99e0c70008ac"
+  integrity sha512-gzqvUKmBpiH9/bi/Mrh7GZrfGN288fKncdIBR067d2WOn5+cB2K75O/DrZzHcVgGm1XC92/9VsCK6GKqD/j5bw==
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    react-email-components-table "^0.1.2"
+    react-email-components-template "^0.2.0"
+    react-emails-components-miscellaneous "^0.2.0"
+    react-image "^4.0.3"
+
 emittery@^0.8.1:
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/emittery/-/emittery-0.8.1.tgz#bb23cc86d03b30aa75a7f734819dee2e1ba70860"
@@ -4828,7 +4839,7 @@ react-email-components-table@0.1.2, react-email-components-table@^0.1.2:
   dependencies:
     "@babel/runtime" "^7.14.6"
 
-react-email-components-template@0.2.0:
+react-email-components-template@0.2.0, react-email-components-template@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/react-email-components-template/-/react-email-components-template-0.2.0.tgz#0e5e0873a1cb53e23cc7beda79d3446b108cb921"
   integrity sha512-HCgX2vEAAwLZxCGs9re/tiKA4NE+oiYv2VvkZFk+zwgcfBEfgnUQJRXknpBL8/bavXnGU2k/Jnv4eCkS5p6tWw==
