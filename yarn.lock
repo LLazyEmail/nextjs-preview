@@ -2089,10 +2089,10 @@ elliptic@^6.5.3:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
-email-template-google-billing@0.0.1:
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/email-template-google-billing/-/email-template-google-billing-0.0.1.tgz#55acca276a02f7de606c6e18fe6b99e0c70008ac"
-  integrity sha512-gzqvUKmBpiH9/bi/Mrh7GZrfGN288fKncdIBR067d2WOn5+cB2K75O/DrZzHcVgGm1XC92/9VsCK6GKqD/j5bw==
+email-template-google-billing@0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/email-template-google-billing/-/email-template-google-billing-0.1.0.tgz#fe5e3f872bd84fc0be65e7b06d238e858c311f7b"
+  integrity sha512-67gfzjh8jH3CXdo0oUDSsLYWQqFlrwHhsSlvp4Gp757JmEpJIBce0measb+2JXwI+0Ohs7rKTtORvjS/Zn4+MQ==
   dependencies:
     "@babel/runtime" "^7.14.6"
     react-email-components-table "^0.1.2"
