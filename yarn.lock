@@ -2089,7 +2089,7 @@ elliptic@^6.5.3:
     minimalistic-assert "^1.0.1"
     minimalistic-crypto-utils "^1.0.1"
 
-email-template-google-billing@^0.0.1:
+email-template-google-billing@0.0.1:
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/email-template-google-billing/-/email-template-google-billing-0.0.1.tgz#55acca276a02f7de606c6e18fe6b99e0c70008ac"
   integrity sha512-gzqvUKmBpiH9/bi/Mrh7GZrfGN288fKncdIBR067d2WOn5+cB2K75O/DrZzHcVgGm1XC92/9VsCK6GKqD/j5bw==
