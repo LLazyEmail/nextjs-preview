@@ -21,7 +21,7 @@
     ]
   },
   "dependencies": {
-    "@mdx-js/loader": "2.1.0",
+    "@mdx-js/loader": "2.1.1",
     "@next/mdx": "12.1.1",
     "@testing-library/react": "12.1.4",
     "atherdon-react-markdown-component-body": "0.1.0",
