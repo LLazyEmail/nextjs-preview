@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "@mdx-js/loader": "2.1.2",
-    "@next/mdx": "12.1.5",
+    "@next/mdx": "12.1.6",
     "@testing-library/react": "12.1.4",
     "atherdon-react-markdown-component-body": "0.1.0",
     "atherdon-react-markdown-component-content": "0.0.3",
@@ -33,7 +33,7 @@
     "enzyme-adapter-react-16": "1.15.6",
     "jest": "28.1.1",
     "newsletter-hn-misc-components": "1.2.0",
-    "next": "12.1.5",
+    "next": "12.1.6",
     "r-em-comp-interior": "0.1.1",
     "react": "18.1.0",
     "react-dom": "18.1.0",
