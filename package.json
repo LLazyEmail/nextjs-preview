@@ -41,7 +41,7 @@
     "react-email-components-template": "0.2.0",
     "react-email-components-typography": "0.0.4",
     "react-test-renderer": "18.1.0",
-    "sass": "1.52.3"
+    "sass": "1.53.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-do-expressions": "7.16.7",
