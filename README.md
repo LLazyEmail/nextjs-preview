@@ -97,3 +97,8 @@ Componens library is moved away into a separated repository: https://github.com/
 * [https://hackernoon.com/together4victory-list-of-email-marketing-tools](https://hackernoon.com/together4victory-list-of-email-marketing-tools)
 * [https://hackernoon.com/cool-newsletters-for-developers-part-1](https://hackernoon.com/cool-newsletters-for-developers-part-1)
 * [https://hackernoon.com/cool-resources-for-sending-emails](https://hackernoon.com/cool-resources-for-sending-emails)
+
+## React Design System
+- [React Design System](https://llazyemail.github.io/documentation/docs/React-Design-System)
+- [React-section](https://llazyemail.github.io/documentation/docs/React-Design-System/React-section)
+- [React tasks](https://llazyemail.github.io/documentation/docs/React-Design-System/react-tasks)
