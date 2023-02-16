@@ -221,10 +221,32 @@ astring@^1.8.0:
   resolved "https://registry.yarnpkg.com/astring/-/astring-1.8.4.tgz#6d4c5d8de7be2ead9e4a3cc0e2efb8d759378904"
   integrity sha512-97a+l2LBU3Op3bBQEff79i/E4jMD2ZLFD8rHx9B6mXyB2uQwhJQYfiDqUwtfjF4QA1F2qs//N6Cw8LetMbQjcw==
 
+atherdon-react-markdown-component-body@^0.0.4:
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/atherdon-react-markdown-component-body/-/atherdon-react-markdown-component-body-0.0.4.tgz#e2a51a097dae6ecbe1c487a4a2fc13d59388904c"
+  integrity sha512-Te4s6iSSaLHDn0GmpASyHafwUrv3KFfD3rLjcfjqxm+ocyAeHYVPwr+CGbOI1PrzVtfIQTDCoKzFz5QmZfutJg==
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+
 atherdon-react-markdown-component-body@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/atherdon-react-markdown-component-body/-/atherdon-react-markdown-component-body-0.1.0.tgz#76ec54a66f93ef366dc24e17589772c7d2e2c474"
   integrity sha512-XupRq6I9XSa2LHnlWyART7tLLDdxGi5qfW0cUdIZnY+Dp9SnKlUBoUNC6F8QDEl+tFVJg1Dx4mgR5Fr+PhKdPQ==
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+
+atherdon-react-markdown-component-content@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/atherdon-react-markdown-component-content/-/atherdon-react-markdown-component-content-0.0.3.tgz#724cb782320babad20076766171cfee4ed4766db"
+  integrity sha512-zSYBvH4AI/NmS6cQ14u8dwBFBf9g0UQIUKp8fO7AtlcBSTlol1ri8H8gatg+eakQQvNOdcpSLp31ahwBnt99RQ==
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    atherdon-react-markdown-component-body "^0.0.4"
+
+atherdon-react-markdown-component-typography@^0.0.3:
+  version "0.0.3"
+  resolved "https://registry.yarnpkg.com/atherdon-react-markdown-component-typography/-/atherdon-react-markdown-component-typography-0.0.3.tgz#adce50ea4c9929657899ad174f2fd4cea0e934a5"
+  integrity sha512-Kd3MjrItT2dnyClRdD3HbwOatMJ1P+PGR583hywMf+TVXA246ijbzeVoV7cYY/JTIvyONNMvI7bHOmKFx53Pfw==
   dependencies:
     "@babel/runtime" "^7.14.6"
 
@@ -871,6 +893,14 @@ nanoid@^3.3.4:
   resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.4.tgz#730b67e3cd09e2deacf03c027c81c9d9dbc5e8ab"
   integrity sha512-MqBkQh/OHTS2egovRtLk45wEyNXwF+cokD+1YPf9u5VfJiRdAiRwB2froX5Co9Rh20xs4siNPm8naNotSD6RBw==
 
+newsletter-hn-misc-components@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/newsletter-hn-misc-components/-/newsletter-hn-misc-components-1.2.0.tgz#c74bf669d45080beee5938d90c5264a356de5b89"
+  integrity sha512-8WlmgeDj5z4uOncDkL6elrpEBI19WSuXYDI5XOoeRd8ycb59Vtoy0EIji6IVQmajvpE2lqOZC1LtSaCrd8NScw==
+  dependencies:
+    react "^17.0.2"
+    react-dom "^17.0.2"
+
 next@latest:
   version "13.1.6"
   resolved "https://registry.yarnpkg.com/next/-/next-13.1.6.tgz#054babe20b601f21f682f197063c9b0b32f1a27c"
@@ -895,6 +925,11 @@ next@latest:
     "@next/swc-win32-arm64-msvc" "13.1.6"
     "@next/swc-win32-ia32-msvc" "13.1.6"
     "@next/swc-win32-x64-msvc" "13.1.6"
+
+object-assign@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
+  integrity sha512-rJgTQnkUnH1sFw8yT6VSU3zD3sWmu6sZhIseY8VX+GRu3P6F7Fu+JNDoXfklElbLJSnc3FUQHVe4cU5hj+BcUg==
 
 parse-entities@^4.0.0:
   version "4.0.1"
@@ -946,6 +981,34 @@ react-dom@18.2.0:
     loose-envify "^1.1.0"
     scheduler "^0.23.0"
 
+react-dom@^17.0.2:
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
+  integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    scheduler "^0.20.2"
+
+react-email-components-table@^0.1.2:
+  version "0.1.2"
+  resolved "https://registry.yarnpkg.com/react-email-components-table/-/react-email-components-table-0.1.2.tgz#f8f5077fac445eee9dd0d9360e4341fea7d8a54e"
+  integrity sha512-sLga8l5+lGVlWRcuyhW9f7gYBdIBh0R3tP7d6wTYd3pAe1Lna/83bE9suBpIPbRXo7mcOjJLCYQhxx+ZXamqxA==
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+
+react-email-components-template@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-email-components-template/-/react-email-components-template-0.2.0.tgz#0e5e0873a1cb53e23cc7beda79d3446b108cb921"
+  integrity sha512-HCgX2vEAAwLZxCGs9re/tiKA4NE+oiYv2VvkZFk+zwgcfBEfgnUQJRXknpBL8/bavXnGU2k/Jnv4eCkS5p6tWw==
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    atherdon-react-markdown-component-body "^0.1.0"
+    atherdon-react-markdown-component-typography "^0.0.3"
+    react-email-components-table "^0.1.2"
+    react-email-components-typography "^0.0.4"
+    react-emails-components-miscellaneous "^0.2.0"
+
 react-email-components-typography@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/react-email-components-typography/-/react-email-components-typography-0.0.4.tgz#fb2c9f7ba6a44a858c2470c47856003f29fc9f49"
@@ -953,12 +1016,33 @@ react-email-components-typography@^0.0.4:
   dependencies:
     "@babel/runtime" "^7.14.6"
 
+react-emails-components-miscellaneous@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/react-emails-components-miscellaneous/-/react-emails-components-miscellaneous-0.2.0.tgz#b6166ecfe7ddca5f8ab34584eda66a893a55cb02"
+  integrity sha512-c/+Dgx8ymBjbtcZYSlkrtutoYZCDplAR/znNOa/iJuJ1qbGzTpRTZvxpllytTrbV9/gjPhfChTI5rMTcR5JeWQ==
+  dependencies:
+    "@babel/runtime" "^7.14.6"
+    react-image "^4.0.3"
+
+react-image@^4.0.3:
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/react-image/-/react-image-4.0.3.tgz#6fa722877660b67295298a914bff1ed87ad2cf83"
+  integrity sha512-19MUK9u1qaw9xys8XEsVkSpVhHctEBUeYFvrLTe1PN+4w5Co13AN2WA7xtBshPM6SthsOj77SlDrEAeOaJpf7g==
+
 react@18.2.0:
   version "18.2.0"
   resolved "https://registry.yarnpkg.com/react/-/react-18.2.0.tgz#555bd98592883255fa00de14f1151a917b5d77d5"
   integrity sha512-/3IjMdb2L9QbBdWiW5e3P2/npwMBaU9mHCSCUzNln0ZCYbcfTsGbTJrU/kGemdH2IWmB2ioZ+zkxtmq6g09fGQ==
   dependencies:
     loose-envify "^1.1.0"
+
+react@^17.0.2:
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/react/-/react-17.0.2.tgz#d0b5cc516d29eb3eee383f75b62864cfb6800037"
+  integrity sha512-gnhPt75i/dq/z3/6q/0asP78D0u592D5L1pd7M8P+dck6Fu/jJeL6iVVK23fptSUZj8Vjf++7wXA8UNclGQcbA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 regenerator-runtime@^0.13.11:
   version "0.13.11"
@@ -998,6 +1082,14 @@ sade@^1.7.3:
   integrity sha512-xal3CZX1Xlo/k4ApwCFrHVACi9fBqJ7V+mwhBsuf/1IOKbBy098Fex+Wa/5QMubw09pSZ/u8EY8PWgevJsXp1A==
   dependencies:
     mri "^1.1.0"
+
+scheduler@^0.20.2:
+  version "0.20.2"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.20.2.tgz#4baee39436e34aa93b4874bddcbf0fe8b8b50e91"
+  integrity sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 scheduler@^0.23.0:
   version "0.23.0"

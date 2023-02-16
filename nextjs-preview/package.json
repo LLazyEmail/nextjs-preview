@@ -10,9 +10,14 @@
     "@mdx-js/react": "^2.3.0",
     "@next/mdx": "^13.1.6",
     "atherdon-react-markdown-component-body": "^0.1.0",
+    "atherdon-react-markdown-component-content": "^0.0.3",
+    "newsletter-hn-misc-components": "^1.2.0",
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "react-email-components-typography": "^0.0.4"
+    "react-email-components-table": "^0.1.2",
+    "react-email-components-template": "^0.2.0",
+    "react-email-components-typography": "^0.0.4",
+    "react-emails-components-miscellaneous": "^0.2.0"
   }
 }
