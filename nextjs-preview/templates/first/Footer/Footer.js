@@ -2,8 +2,12 @@ import React from 'react';
 
 import { 
   Copyrights, Address, 
-  Unsubscribe, NewsletterSponsorshipLink 
-} from "atherdon-react-markdown-component-misc"
+  Unsubscribe 
+} from "react-emails-components-miscellaneous"
+
+// import { 
+//   NewsletterSponsorshipLink 
+// } from "atherdon-react-markdown-component-misc"
 
 import { 
   Table
@@ -111,7 +115,8 @@ const Footer = () => (
                     <Address />
                     <br />
                     <Unsubscribe />
-                    <NewsletterSponsorshipLink />
+
+                    {/* <NewsletterSponsorshipLink /> */}
                   </td>
                 </tr>
               </tbody>
