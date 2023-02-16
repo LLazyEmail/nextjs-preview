@@ -5,12 +5,14 @@ import { Logo } from "atherdon-react-markdown-component-content"
 
 // import HOC from './HOC';
 
-import { HOC } from "atherdon-react-markdown-component-wrapper";
+// import { HOC } from "atherdon-react-markdown-component-wrapper";
+
 
 
 import Footer from './Footer';
 
 import BodyPrototype from './Body/BodyPrototype';
+
 
 
 import config from './config';
@@ -32,12 +34,12 @@ const First = ({ header }) => (
       </tr>
       <tr>
         <td valign="top" id="templateBody" style={styles.templateBody}>
-          <Divider>
-            {/*
+          {/*<Divider>
+            
             <BodyPrototype
               config={config}
-            />*/}
-          </Divider>
+            />
+          </Divider>*/}
           <Logo />
         </td>
       </tr>
