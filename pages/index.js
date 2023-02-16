@@ -11,25 +11,25 @@ export default function Home() {
       <ul style={{ display: 'flex', flexDirection: 'column' }}>
 
         <Link href="/billing-google">
-          <a> BillingGoogle </a>
+           BillingGoogle 
           </Link> 
         <Link href="/first">
-          <a>first</a>
+          first
         </Link>
         <Link href="/content-only">
-          <a>content-only</a>
+          content-only
         </Link>
         <Link href="/full">
-          <a>full</a>
+          full
         </Link>
         <Link href="/vouchful">
-          <a>vouchful</a>
+          vouchful
         </Link>
         <Link href="/mdx-test">
-          <a>Here test mdx</a>
+          Here test mdx
         </Link>
         <Link href="/mdx-components">
-          <a>MDX with components inside</a>
+          MDX with components inside
         </Link>
       </ul>
     </div>
