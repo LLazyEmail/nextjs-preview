@@ -27,6 +27,23 @@ yarn dev
 
 - https://github.com/hashicorp/next-mdx-remote#frontmatter--custom-processing
 
+
+```
+
+https://www.npmjs.com/package/react-email-components-template
+
+https://www.npmjs.com/package/react-email-components-table https://github.com/LLazyEmail/react-email-table
+ https://github.com/LLazyEmail/react-email-miscellaneous-components
+ https://www.npmjs.com/package/newsletter-hn-misc-components
+ https://www.npmjs.com/package/atherdon-react-markdown-component-content
+ 
+```
+
+
+
+
+
+
 #### Remark plugins to try later later later
 - https://github.com/remarkjs/remark-html
 - https://github.com/remarkjs/remark-breaks
