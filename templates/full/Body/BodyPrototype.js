@@ -2,10 +2,10 @@ import React from 'react';
 
 
 import { 
-  MainTitle, Image, Heading, Strong, Paragraph, Separator
+  MainTitle, Image, Heading, Strong, Paragraph, Separator, Link
 } from "react-email-components-typography"
 
-import { Link } from "react-emails-components-miscellaneous"
+// import { Link } from "react-emails-components-miscellaneous"
 
 import { 
   Sponsor
