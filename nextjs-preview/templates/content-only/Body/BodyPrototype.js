@@ -5,6 +5,8 @@ import {
 } from "atherdon-react-markdown-component-typography"
 
 
+
+
 const BodyPrototype = ({ config }) => {
   const {
     mainTitle, paragraphFirst,
