@@ -1,7 +1,6 @@
 import React from 'react';
 
-
-import Table from "../Table/Table.jsx";
+import { Table } from "react-email-components-table";
 
 const HOC = ({ children, styles }) => (
   <>
