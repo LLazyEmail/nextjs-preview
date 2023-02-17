@@ -1,12 +1,17 @@
 import React from 'react';
 
-import { Divider } from "atherdon-react-markdown-component-body"
-import { Logo } from "atherdon-react-markdown-component-content"
+import { Divider } from "react-email-components-typography";
+
+import { Logo } from "react-emails-components-miscellaneous";
+
+
+// import { Logo } from "atherdon-react-markdown-component-content"
 
 // import HOC from './HOC';
 
 // import { HOC } from "atherdon-react-markdown-component-wrapper";
-
+// guessing
+import { Block } from "react-email-components-template"
 
 
 import Footer from './Footer';
@@ -19,7 +24,7 @@ import config from './config';
 import { styles } from './styles';
 
 const First = ({ header }) => (
-  <HOC styles={{ ...styles }}>
+  <Block styles={{ ...styles }}>
     <tbody>
       
       <tr>
@@ -34,6 +39,7 @@ const First = ({ header }) => (
       </tr>
       <tr>
         <td valign="top" id="templateBody" style={styles.templateBody}>
+        <Divider></Divider>
           {/*<Divider>
             
             <BodyPrototype
@@ -44,8 +50,8 @@ const First = ({ header }) => (
         </td>
       </tr>
     </tbody>
-    {/*<Footer /> */}
-  </HOC>
+    <Footer />
+  </Block>
 );
 
 export default First;
