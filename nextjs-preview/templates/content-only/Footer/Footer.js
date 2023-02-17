@@ -9,11 +9,15 @@ import {
 //   NewsletterSponsorshipLink 
 // } from "atherdon-react-markdown-component-misc"
 
-import { TableLeft } from "atherdon-react-markdown-component-content";
-import { Table } from "atherdon-react-markdown-component-body";
+// import { TableLeft } from "atherdon-react-markdown-component-content";
+// import { Table } from "atherdon-react-markdown-component-body";
+
+import { Table, TableLeft } from "react-email-components-table";
+
 
 import { styles } from './styles';
 import { config } from './config';
+
 
 const Footer = () => (
   <>

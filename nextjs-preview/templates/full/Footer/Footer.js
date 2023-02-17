@@ -1,16 +1,17 @@
 import React from 'react';
 
-import { 
-  Copyright, Address, Unsubscribe, NewsletterSponsorshipLink 
-} from "atherdon-react-markdown-component-misc"
+// import { 
+//    NewsletterSponsorshipLink 
+// } from "atherdon-react-markdown-component-misc"
 
 import { 
-  TableLeft 
-}  from "atherdon-react-markdown-component-content";
+  Copyrights, Address, 
+  Unsubscribe 
+} from "react-emails-components-miscellaneous"
 
-import { 
-  Table
-} from "atherdon-react-markdown-component-body"
+import { Table, TableLeft } from "react-email-components-table";
+
+
 
 import { styles } from './styles';
 

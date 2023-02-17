@@ -6,12 +6,12 @@ import { Logo } from "react-emails-components-miscellaneous";
 
 
 // import { Logo } from "atherdon-react-markdown-component-content"
-
+import HOC from '../../components/HOC/HOC';
 // import HOC from './HOC';
 
 // import { HOC } from "atherdon-react-markdown-component-wrapper";
 // guessing
-import { Block } from "react-email-components-template"
+// import { Block } from "react-email-components-template"
 
 
 import Footer from './Footer';
@@ -24,7 +24,7 @@ import config from './config';
 import { styles } from './styles';
 
 const First = ({ header }) => (
-  <Block styles={{ ...styles }}>
+  <HOC styles={{ ...styles }}>
     <tbody>
       
       <tr>
@@ -51,7 +51,7 @@ const First = ({ header }) => (
       </tr>
     </tbody>
     <Footer />
-  </Block>
+  </HOC>
 );
 
 export default First;

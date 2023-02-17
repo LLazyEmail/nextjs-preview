@@ -4,6 +4,8 @@ import {
   MainTitle, Image, Heading, Strong, Paragraph, Separator, Divider 
 } from "atherdon-react-markdown-component-typography"
 
+import { Divider } from "react-email-components-typography";
+
 
 
 

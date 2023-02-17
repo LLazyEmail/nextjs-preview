@@ -1,11 +1,12 @@
 import React from 'react';
 
-import { Divider } from "atherdon-react-markdown-component-body"
+import { Divider } from "react-email-components-typography"
 
-// import HOC from './HOC';
+import HOC from '../../components/HOC/HOC';
 
-import { HOC } from "atherdon-react-markdown-component-wrapper";
+// import { HOC } from "atherdon-react-markdown-component-wrapper";
 
+// import { Block } from "react-email-components-template"
 
 import Footer from './Footer';
 
@@ -40,7 +41,7 @@ const ContentOnly = ({ header }) => (
       </tr>
     </tbody>
 
-    {/*<Footer /> */}
+    <Footer />
 
   </HOC>
 );
