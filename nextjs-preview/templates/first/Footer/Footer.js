@@ -9,12 +9,6 @@ import {
 //   NewsletterSponsorshipLink 
 // } from "atherdon-react-markdown-component-misc"
 
-// import { 
-//   Table
-// } from "atherdon-react-markdown-component-body"
-
-// import { TableLeft } from "atherdon-react-markdown-component-content";
-
 
 
 import { Table, TableLeft } from "react-email-components-table";
