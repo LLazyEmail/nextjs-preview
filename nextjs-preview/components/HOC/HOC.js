@@ -3,9 +3,8 @@ import React from 'react';
 import { Table } from "react-email-components-table";
 
 const HOC = ({ children, styles }) => (
-  <>
+ 
     <div style={{ textAlign: 'center' }}>
-
       <Table
         id="bodyTable"
         style={styles.bodyTable}
@@ -17,7 +16,9 @@ const HOC = ({ children, styles }) => (
                 className="templateContainer"
                 style={styles.templateContainer}
               >
+
                 {children}
+                
               </Table>
             </td>
           </tr>
@@ -25,7 +26,7 @@ const HOC = ({ children, styles }) => (
       </Table>
 
     </div>
-  </>
+ 
 );
 
 export default HOC;

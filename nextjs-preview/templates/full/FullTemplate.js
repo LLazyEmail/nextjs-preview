@@ -2,12 +2,14 @@ import React from 'react';
 
 import BodyPrototype from './Body/BodyPrototype';
 
-import { Divider } from "atherdon-react-markdown-component-body";
-import { Logo } from "atherdon-react-markdown-component-content";
+import { Divider } from "react-email-components-typography"
+
+import { Logo } from "react-emails-components-miscellaneous";
 
 // import HOC from './HOC';
 
-import { HOC } from "atherdon-react-markdown-component-wrapper";
+import HOC from '../../components/HOC/HOC.js';
+
 
 import Footer from './Footer';
 
@@ -20,7 +22,7 @@ const FullTemplate = ({ header }) => (
     <tbody>
       <tr>
         <td valign="top" id="templatePreheader" style={styles.templatePreheader}>
-          <Logo />
+          {/*<Logo /> */}
         </td>
       </tr>
       <tr>
@@ -37,11 +39,12 @@ const FullTemplate = ({ header }) => (
             />
             */}
           </Divider>
-          <Logo />
+          {/*<Logo /> */}
         </td>
       </tr>
     </tbody>
-    {/* <Footer /> */}
+      
+    <Footer />
   </HOC>
 );
 

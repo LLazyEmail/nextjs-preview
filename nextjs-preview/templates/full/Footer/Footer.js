@@ -34,6 +34,7 @@ const Footer = () => (
               <tbody>
                 <tr>
                   <td align="center" style={styles.tdCenter}>
+                    {/*
                     <Table
                       style={styles.followContent}
                       className="mcnFollowContent"
@@ -86,6 +87,7 @@ const Footer = () => (
                         </tr>
                       </tbody>
                     </Table>
+                    */} 
                   </td>
                 </tr>
               </tbody>
@@ -109,12 +111,12 @@ const Footer = () => (
               <tbody>
                 <tr>
                   <td valign="top" className="mcnTextContent" style={styles.textContent}>
-                    <Copyright />
+                    {/*<Copyrights />*/}
                     <br />
                     <Address />
                     <br />
                     <Unsubscribe />
-                    <NewsletterSponsorshipLink />
+                    {/*<NewsletterSponsorshipLink />*/}
                   </td>
                 </tr>
               </tbody>
