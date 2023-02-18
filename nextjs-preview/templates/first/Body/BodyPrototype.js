@@ -6,9 +6,12 @@ import {
   Image
 } from "react-emails-components-miscellaneous"
 
-import { 
-  CtaList, GetPublished, JoinUs
- }  from "atherdon-react-markdown-component-body"
+// import { 
+//   CtaList, GetPublished, JoinUs
+//  }  from "atherdon-react-markdown-component-body"
+
+
+
 
 
  import { 
