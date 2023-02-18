@@ -19,6 +19,7 @@ import { config } from './config';
 
 const Footer = () => (
   <div>
+    {/*
     <Table
       className="mcnFollowBlock"
       style={styles.followBlock}
@@ -34,7 +35,7 @@ const Footer = () => (
               <tbody>
                 <tr>
                   <td align="center" style={styles.tdCenter}>
-                    {/*
+                   
                     <Table
                       style={styles.followContent}
                       className="mcnFollowContent"
@@ -87,7 +88,7 @@ const Footer = () => (
                         </tr>
                       </tbody>
                     </Table>
-                    */} 
+                   
                   </td>
                 </tr>
               </tbody>
@@ -96,6 +97,7 @@ const Footer = () => (
         </tr>
       </tbody>
     </Table>
+    */}
     <Table
       className="mcnTextBlock"
       style={styles.textBlock}
@@ -113,9 +115,9 @@ const Footer = () => (
                   <td valign="top" className="mcnTextContent" style={styles.textContent}>
                     {/*<Copyrights />*/}
                     <br />
-                    <Address />
+                    {/*<Address />*/}
                     <br />
-                    <Unsubscribe />
+                    {/*<Unsubscribe />*/}
                     {/*<NewsletterSponsorshipLink />*/}
                   </td>
                 </tr>

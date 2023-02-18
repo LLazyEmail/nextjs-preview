@@ -1,12 +1,19 @@
 import React from 'react';
 
-import { 
-  MainTitle, Image, Heading, Strong, Paragraph, Separator  
-} from "atherdon-react-markdown-component-typography"
+import { Sponsor, Title } from "react-email-template";
 
 import { 
-  Sponsor, Divider, CtaList, GetPublished, JoinUs
+  Image
+} from "react-emails-components-miscellaneous"
+
+import { 
+  CtaList, GetPublished, JoinUs
  }  from "atherdon-react-markdown-component-body"
+
+
+ import { 
+  Divider, Strong, Paragraph, Separator, HeadingOne  
+} from "react-email-components-typography";
 
 
 import { links } from './config';
@@ -27,9 +34,9 @@ const BodyPrototype = ({ config }) => {
       >
         {sponsor.text}
       </Sponsor>
-      <MainTitle>
+      <Title>
         {mainTitle}
-      </MainTitle>
+      </Title>
       <Paragraph>
         {paragraphFirst}
       </Paragraph>
@@ -44,9 +51,9 @@ const BodyPrototype = ({ config }) => {
       <Paragraph>
         {paragraphSecond}
       </Paragraph>
-      <Heading>
+      <HeadingOne>
         <Strong>{heading}</Strong>
-      </Heading>
+      </HeadingOne>
       <Paragraph>
         {paragraphThird}
       </Paragraph>
@@ -58,12 +65,12 @@ const BodyPrototype = ({ config }) => {
       <Paragraph>
         {paragraphFourth}
       </Paragraph>
-      <Heading>
+      <HeadingOne>
         <Strong>{heading2}</Strong>
-      </Heading>
-      <Heading>
+      </HeadingOne>
+      <HeadingOne>
         <Strong>{heading3}</Strong>
-      </Heading>
+      </HeadingOne>
       <Image href="#" src={imageLink} />
       <Divider />
       <Paragraph>

@@ -1,10 +1,14 @@
 import React from 'react';
 
-import { Sponsor } from "atherdon-react-markdown-component-body";
+import { Sponsor, Title } from "react-email-template";
 
 import { 
-  MainTitle, Image, Heading, Strong, Paragraph, Separator, Divider 
-} from "atherdon-react-markdown-component-typography"
+  Divider, Strong, Paragraph, Separator, HeadingOne  
+} from "react-email-components-typography";
+
+
+import { Image } from
+"react-email-miscellaneous-components";
 
 const BodyPrototype = () => (
   <>
@@ -15,9 +19,9 @@ const BodyPrototype = () => (
     >
       Ship the data importer you always dreamed of
     </Sponsor>
-    <MainTitle>
+    <Title>
       Can We Make Data Tidy?
-    </MainTitle>
+    </Title>
     <Paragraph>
       Imagine: You are going to sit down with a newly-fetched data set,
       excited about the insights it will bring you and then you find out it is no use.
@@ -38,9 +42,9 @@ const BodyPrototype = () => (
       disillusioned by mountains of unworkable data. The only way data specialists can facilitate analysis is
       by keeping data clean and organized.
     </Paragraph>
-    <Heading>
+    <HeadingOne>
       <Strong>What is tidy data?</Strong>
-    </Heading>
+    </HeadingOne>
     <Paragraph>
       Essentially, tidy data is a term coined by Hadley Wickham in his Tidy Data paper (remember that
       statistician from NZ?).
@@ -58,12 +62,12 @@ const BodyPrototype = () => (
     <Paragraph>
       Without further ado, let us break down the principles that allow you keep your data nice and clean.
     </Paragraph>
-    <Heading>
+    <HeadingOne>
       <Strong>Tidy Data Principles</Strong>
-    </Heading>
-    <Heading>
+    </HeadingOne>
+    <HeadingOne>
       <Strong>1. Each row is an observational unit.</Strong>
-    </Heading>
+    </HeadingOne>
     <Image href="#" src="https://raw.githubusercontent.com/atherdon/newsletters/master/archive/img/image1.png" />
     <Divider />
     <Paragraph>

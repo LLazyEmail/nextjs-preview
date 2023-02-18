@@ -26,9 +26,9 @@ const BodyPrototype = ({ config }) => {
 
   return (
     <>
-      <MainTitle>
+      <Title>
         {mainTitle}
-      </MainTitle>
+      </Title>
       <Paragraph>
         {paragraphFirst}
       </Paragraph>
@@ -43,9 +43,9 @@ const BodyPrototype = ({ config }) => {
       <Paragraph>
         {paragraphSecond}
       </Paragraph>
-      <Heading>
+      <HeadingOne>
         <Strong>{heading}</Strong>
-      </Heading>
+      </HeadingOne>
       <Paragraph>
         {paragraphThird}
       </Paragraph>
@@ -57,12 +57,12 @@ const BodyPrototype = ({ config }) => {
       <Paragraph>
         {paragraphFourth}
       </Paragraph>
-      <Heading>
+      <HeadingOne>
         <Strong>{heading2}</Strong>
-      </Heading>
-      <Heading>
+      </HeadingOne>
+      <HeadingOne>
         <Strong>{heading3}</Strong>
-      </Heading>
+      </HeadingOne>
       <Image href="#" src={imageLink} />
       <Divider />
       <Paragraph>
