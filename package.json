@@ -31,7 +31,7 @@
     "email-template-google-billing": "0.1.0",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.6",
-    "jest": "29.4.2",
+    "jest": "29.6.4",
     "newsletter-hn-misc-components": "1.2.0",
     "next": "13.1.6",
     "r-em-comp-interior": "0.1.1",
