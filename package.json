@@ -35,12 +35,12 @@
     "newsletter-hn-misc-components": "1.2.0",
     "next": "13.1.6",
     "r-em-comp-interior": "0.1.1",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
     "react-email-components-table": "0.1.2",
     "react-email-components-template": "0.2.0",
     "react-email-components-typography": "0.0.4",
-    "react-test-renderer": "18.2.0",
+    "react-test-renderer": "18.3.1",
     "sass": "1.58.0"
   },
   "devDependencies": {
@@ -51,6 +51,6 @@
     "eslint-plugin-import": "2.27.5",
     "eslint-plugin-jsx-a11y": "6.7.1",
     "eslint-plugin-react": "7.32.2",
-    "eslint-plugin-react-hooks": "4.6.0"
+    "eslint-plugin-react-hooks": "4.6.2"
   }
 }
